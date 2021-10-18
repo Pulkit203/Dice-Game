@@ -134,3 +134,8 @@ function togglehide() {
   }
   console.log(para.style.display);
 }
+function play_action()
+{
+  document.getElementById('sound1').play();
+  play();
+}
