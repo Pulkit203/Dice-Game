@@ -2,10 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend&family=Lobster&family=Orbitron&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend&family=Lobster&family=Meie+Script&family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* font-family: 'Meie Script', cursive; */
 
 body {
-  background-color: blueviolet;
+  background-color: rgb(85 192 255);
   color: black;
   /* color: blueviolet; */
 }
@@ -25,6 +29,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Nunito Sans", sans-serif; */
 }
 .max-width {
   width: 70vw;
@@ -56,6 +61,7 @@ body {
   /* align-items: center; */
   flex-direction: column;
   float: left;
+  font-family: "Nunito Sans", sans-serif;
 }
 .color {
   margin: 2px;
@@ -74,19 +80,24 @@ body {
   /* background-color: aqua; */
 }
 .logo {
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
   font-size: 2rem;
   display: flex;
   align-items: center;
   /* background-color: antiquewhite; */
+}
+.logo:hover {
+  text-decoration: underline;
 }
 
 .logo img {
   width: 60px;
 }
 .instruct {
-  font-family: "Lexend", sans-serif;
-
+  /* font-family: "Lexend", sans-serif; */
+  font-family: "IM Fell English SC", serif;
   /* background-color: rgb(218, 94, 94); */
 }
 a {
@@ -159,19 +170,22 @@ main {
   outline: none;
   border: 0px solid transparent;
   cursor: pointer;
+  font-family: "Courgette", cursive;
 }
 
 .btn button:hover {
   padding: 20px;
   background-color: rgb(103, 230, 181);
   outline: none;
+  text-decoration: underline;
   border: 0px solid transparent;
   box-shadow: 2px 2px 10px rgb(17, 238, 153), 2px 2px 20px rgb(17, 238, 153),
     2px 2px 30px rgb(17, 238, 153), 2px 2px 40px rgb(17, 238, 153),
     2px 2px 50px rgb(17, 238, 153);
 }
 h1 {
-  font-family: "Orbitron", sans-serif;
+  /* font-family: "Orbitron", sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
   font-size: 50px;
 }
