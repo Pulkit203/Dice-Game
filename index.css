@@ -11,11 +11,7 @@
 /* font-family: 'Meie Script', cursive; */
 
 body {
-  /* background-color: rgb(233 233 233 / 0%); */
-  /* background-color: rgb(55 254 245); */
   background-color: #f3f0e0;
-  /* background-color: rgb(85 192 255); */
-  /* background-image: url("https://www.murphygoodewinery.com/sites/default/files/styles/hero_desktop/public/hero-images/Liars-Dice-Header.jpg?itok=qeHfNKfE"); */
   color: black;
   /* background-color: #4d05ff; */
   /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/277a9676-3d2e-4e05-ae86-68e0a275192d/d37zg64-41dc9e93-9329-4ac3-b0f1-ccd3bc814835.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI3N2E5Njc2LTNkMmUtNGUwNS1hZTg2LTY4ZTBhMjc1MTkyZFwvZDM3emc2NC00MWRjOWU5My05MzI5LTRhYzMtYjBmMS1jY2QzYmM4MTQ4MzUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.M91O-AaGoYJ5KigkDydWI0Bwli8m-aLfdoG9ZBy34N4"); */
@@ -107,11 +103,6 @@ body {
 .logo:hover {
   text-decoration: underline;
 }
-
-/* .logo:nth-child(1) {
-  background-color: blue;
-} */
-
 .logo img {
   width: 60px;
 }
